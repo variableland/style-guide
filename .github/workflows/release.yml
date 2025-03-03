@@ -43,9 +43,6 @@ jobs:
           //npm.pkg.github.com/:_authToken=\${GITHUB_TOKEN}
           EOF
 
-      - name: 🔍 Debug .npmrc file
-        run: cat .npmrc
-
       - name: 🚀 Create release PR or publish versions
         uses: changesets/action@v1
         with:
