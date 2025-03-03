@@ -1,5 +1,11 @@
 # @variableland/biome-config
 
+## 0.0.3
+
+### Patch Changes
+
+- [#9](https://github.com/variableland/style-guide/pull/9) [`a640a82`](https://github.com/variableland/style-guide/commit/a640a825ee4a6d3b0e0f374c3ee9a1f94ac25256) Thanks [@rqbazan](https://github.com/rqbazan)! - Add minimal change
+
 ## 0.0.2
 
 ### Patch Changes

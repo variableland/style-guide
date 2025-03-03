@@ -1,6 +1,6 @@
 {
   "name": "@variableland/biome-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Biome configuration file for @variableland",
   "keywords": [
     "biome"
