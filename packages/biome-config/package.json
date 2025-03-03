@@ -1,14 +1,17 @@
 {
   "name": "@variableland/biome-config",
   "version": "0.0.1",
-  "type": "module",
   "description": "Biome configuration file for @variableland",
-  "author": "Ricardo Q. Bazan <ricardo@variable.land>",
-  "exports": {
-    ".": "./src/biome.json"
-  },
   "keywords": [
     "biome"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "author": "Ricardo Q. Bazan <ricardo@variable.land>",
+  "type": "module",
+  "exports": {
+    ".": "./src/biome.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
