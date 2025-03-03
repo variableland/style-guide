@@ -40,7 +40,7 @@ jobs:
         run: |
           cat << EOF > ".npmrc"
           @variableland:registry=https://npm.pkg.github.com
-          //npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
+          //npm.pkg.github.com/:_authToken=\${GITHUB_TOKEN}
           EOF
 
       - name: 🔍 Debug .npmrc file
