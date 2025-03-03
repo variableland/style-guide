@@ -39,9 +39,12 @@ jobs:
       - name: Creating .npmrc
         run: |
           cat << EOF > ".npmrc"
-            @variableland:registry=https://npm.pkg.github.com
-            //npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
+          @variableland:registry=https://npm.pkg.github.com
+          //npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
           EOF
+
+      - name: 🔍 Debug .npmrc file
+        run: cat .npmrc
 
       - name: 🚀 Create release PR or publish versions
         uses: changesets/action@v1
