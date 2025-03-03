@@ -37,7 +37,7 @@ jobs:
 
       - name: Creating .npmrc
         run: |
-          cat << EOF > "./ruta/a/tu/carpeta/.npmrc"
+          cat << EOF > ".npmrc"
             @variableland:registry=https://npm.pkg.github.com
             //npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
           EOF
