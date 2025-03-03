@@ -1,0 +1,11 @@
+{
+  "name": "@variableland/style-guide",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Collection of configuration files for @variableland",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@changesets/cli": "^2.28.1",
+    "@variableland/biome-config": "workspace:*"
+  }
+}
