@@ -1,5 +1,13 @@
 # @variableland/biome-config
 
+## 0.0.4
+
+### Patch Changes
+
+- [#11](https://github.com/variableland/style-guide/pull/11) [`ace0758`](https://github.com/variableland/style-guide/commit/ace07580ce67b2c21d578dde69e72f49e910eac2) Thanks [@rqbazan](https://github.com/rqbazan)! - Add lineWidth as 100 to formatter
+
+- [#13](https://github.com/variableland/style-guide/pull/13) [`5020f7a`](https://github.com/variableland/style-guide/commit/5020f7ab43a620cdf0beda6945a40289672dfa27) Thanks [@rqbazan](https://github.com/rqbazan)! - Add defaultBranch to vcs
+
 ## 0.0.3
 
 ### Patch Changes
